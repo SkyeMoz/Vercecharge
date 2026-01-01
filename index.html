@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MLBB Vercel Recharge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <img src="settings/logo.png" class="logo" />
+    <p class="sub">Vercel Recharge</p>
+    <span class="prank">By Moz Studio</span>
+
+    <div class="card">
+      <h3>1. Please Enter User ID</h3>
+      <input type="text" placeholder="Example: 12345678" disabled />
+      <input type="text" placeholder="Server Zone (12345)" disabled />
+    </div>
+
+    <div class="card">
+      <h3>2. Enter Amount of Diamonds</h3>
+      <input type="number" id="dias" placeholder="Enter diamonds" />
+      <p class="price">₱ <span id="price">0.00</span></p>
+      <input type="text" placeholder="Phone Number (Fake, does nothing)" disabled />
+    </div>
+
+    <div class="actions">
+      <button id="help">Get Help</button>
+      <button id="recharge">Recharge</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">
+    ✅ Successful, Please Open The App (Mobile Legends)
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
